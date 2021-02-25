@@ -9,6 +9,11 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
+# Paper-Jenkins-Buildtype
+EXTHM_BUILDTYPE := OPEN
+PAPER_PRODUCT_LOCALE := zh-CN
+# PAPER_PRODUCT_TYPE := PAPER-SYSTEM-DUAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := exthm_polaris
 PRODUCT_DEVICE := polaris
